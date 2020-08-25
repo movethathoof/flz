@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mock Posts</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Posts</name>
+      <Placemark>
+        <name>New in Rump Stacking this week</name>
+        <description><![CDATA[Don't get caught sitting on your rump with these tips and tricks from the unchallenged masters!]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -123.0835015,49.1797714,0
+          </coordinates>
+        </Point>
+		<ExtendedData>
+			<Data name="file"><value>moo2</value></Data>
+			<Data name="tImg"><value>MB2</value></Data>
+		  </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Moo deserve it!</name>
+        <description>Ten places to relax and let your rump shine this summer</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -92.1144254,17.2562713,0
+          </coordinates>
+        </Point>
+		<ExtendedData>
+			<Data name="file"><value>moo3</value></Data>
+			<Data name="tImg"><value>MB1</value></Data>
+		  </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>THE HERD HAS SPOKEN</name>
+        <description>What you need to know to maximize returns on your tithes</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -58.3702611,-34.6081449,0
+          </coordinates>
+        </Point>
+		<ExtendedData>
+			<Data name="file"><value>moo1</value></Data>
+			<Data name="tImg"><value>MB3</value></Data>
+		  </ExtendedData>
+      </Placemark>
+	  <Placemark>
+        <name>The MOO Meaning of Passover</name>
+        <description>What you need to know to maximize returns on your tithes</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            32.545984, 29.756955,0
+          </coordinates>
+        </Point>
+		<ExtendedData>
+			<Data name="file"><value>moo-meaning</value></Data>
+			<Data name="tImg"><value>moo-meaning_1</value></Data>
+		  </ExtendedData>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
